@@ -1,0 +1,21 @@
+{
+    "name": "eaquinta/reports",
+    "description": "Paquete para generar reportes PDF en Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eaquinta\\Reports\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eaquinta\\Reports\\ReportsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "barryvdh/laravel-dompdf": "^2.0"
+    }
+}
