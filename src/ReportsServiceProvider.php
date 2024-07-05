@@ -3,6 +3,7 @@
 namespace Eaquinta\Reports;
 
 use Illuminate\Support\ServiceProvider;
+use Eaquinta\Reports\ReportGenerator;
 
 class ReportsServiceProvider extends ServiceProvider
 {
@@ -23,8 +24,8 @@ class ReportsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('pdfreport', function ($app) {
-            return new PdfReport();
+        $this->app->singleton('reports', function ($app) {
+            return new ReportGenerator();
         });
     }
 }

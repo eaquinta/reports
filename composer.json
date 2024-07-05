@@ -1,8 +1,15 @@
 {
     "name": "eaquinta/reports",
     "description": "Paquete para generar reportes PDF en Laravel",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+          "name": "Estuardo Quintanilla",
+          "email": "eaquinta@yahoo.com"
+        }
+      ],
     "autoload": {
         "psr-4": {
             "Eaquinta\\Reports\\": "src/"
@@ -16,6 +23,7 @@
         }
     },
     "require": {
+        "php": ">=8.0",
         "barryvdh/laravel-dompdf": "^2.0"
     }
 }
