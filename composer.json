@@ -15,13 +15,6 @@
             "Eaquinta\\Reports\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Eaquinta\\Reports\\ReportsServiceProvider"
-            ]
-        }
-    },
     "require": {
         "php": ">=8.0",
         "barryvdh/laravel-dompdf": "^2.0"
