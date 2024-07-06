@@ -1,8 +1,7 @@
 {
     "name": "eaquinta/reports",
-    "description": "Paquete para generar reportes PDF en Laravel",
-    "version": "0.0.2",
-    "type": "library",
+    "description": "Paquete para generar reportes PDF en Laravel",    
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
