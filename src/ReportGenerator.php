@@ -4,7 +4,7 @@ namespace Eaquinta\Reports;
 
 use Dompdf\Dompdf;
 
-class PdfReport
+class ReportGenerator
 {
     public function generateReport($title)
     {
